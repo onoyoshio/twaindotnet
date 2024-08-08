@@ -18,6 +18,15 @@ namespace TwainDotNet.Win32
 
         [DllImport("kernel32.dll", ExactSpelling = true)]
         internal static extern IntPtr GlobalFree(IntPtr handle);
+
+        [DllImport("kernel32.dll")]
+        internal static extern IntPtr LoadLibrary(string lpFileName);
+
+        [DllImport("kernel32.dll")]
+        internal static extern bool FreeLibrary(IntPtr hModule);
+
+        [DllImport("kernel32.dll")]
+        internal static extern IntPtr GetProcAddress(IntPtr hModule, string lpProcName);
     }
 
     [Flags]

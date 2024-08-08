@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using TwainDotNet.TwainNative;
 using TwainDotNet.Win32;
 using System.Drawing;
+using System.IO;
 
 namespace TwainDotNet
 {
@@ -15,6 +16,15 @@ namespace TwainDotNet
 
         public Twain(IWindowsMessageHook messageHook)
         {
+            // Load twaindsm.dll for 32-bit or 64-bit depending on the execution process.
+            {
+                var rootPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                var twaindsmPath = Path.Combine(Path.Combine(Path.Combine(rootPath, "twaindsm"), (IntPtr.Size == 8 ? "x64":"x86")), "twaindsm.dll");
+                if (File.Exists(twaindsmPath)) {
+                    Kernel32Native.LoadLibrary(twaindsmPath);
+                }
+            }
+
             ScanningComplete += delegate { };
             TransferImage += delegate { };
 
