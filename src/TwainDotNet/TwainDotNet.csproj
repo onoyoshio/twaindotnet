@@ -16,6 +16,12 @@
 	  <GenerateDocumentationFile>False</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="twaindsm\twaindsm_license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="twaindsm\twaindsm_license.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="twaindsm\x64\TWAINDSM.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
