@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwainDotNet", "TwainDotNet\TwainDotNet.csproj", "{857B8891-2932-484D-A9A8-D38B47108CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwainDotNet", "TwainDotNet\TwainDotNet.csproj", "{857B8891-2932-484D-A9A8-D38B47108CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{378465E6-6577-41CE-AEA3-DA73541F93A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{378465E6-6577-41CE-AEA3-DA73541F93A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppWpf", "TestAppWpf\TestAppWpf.csproj", "{4D85C10D-1DB3-41A0-AD04-EF43DF4F8B56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAppWpf", "TestAppWpf\TestAppWpf.csproj", "{4D85C10D-1DB3-41A0-AD04-EF43DF4F8B56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwainDotNet.Wpf", "TwainDotNet.Wpf\TwainDotNet.Wpf.csproj", "{E297D5D9-17DD-4FC3-9B7B-DF1A8B28FA5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwainDotNet.Wpf", "TwainDotNet.Wpf\TwainDotNet.Wpf.csproj", "{E297D5D9-17DD-4FC3-9B7B-DF1A8B28FA5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwainDotNet.WinFroms", "TwainDotNet.WinFroms\TwainDotNet.WinFroms.csproj", "{715EED8D-94FE-40ED-B3F7-59284FA6242B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwainDotNet.WinFroms", "TwainDotNet.WinFroms\TwainDotNet.WinFroms.csproj", "{715EED8D-94FE-40ED-B3F7-59284FA6242B}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestVb", "TestVb\TestVb.vbproj", "{A35B4457-7415-4A1B-94BC-D62E6EDACD51}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TestVb", "TestVb\TestVb.vbproj", "{A35B4457-7415-4A1B-94BC-D62E6EDACD51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
