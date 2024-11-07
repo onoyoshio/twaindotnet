@@ -8,6 +8,13 @@
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <PackageId>$(AssemblyName).Fork</PackageId>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/onoyoshio/twaindotnet.git</RepositoryUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Description>This package is a message hook for TwainDotNet.Fork by WPF.</Description>
+    <Authors>ONO Yoshio</Authors>
+    <Company />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DocumentationFile>bin\Debug\TwainDotNet.Wpf.XML</DocumentationFile>

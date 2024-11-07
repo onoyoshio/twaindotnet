@@ -14,6 +14,15 @@
     <TargetFrameworks>net35;net6.0-windows</TargetFrameworks>
 	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	  <GenerateDocumentationFile>False</GenerateDocumentationFile>
+	  <PackageId>$(AssemblyName).Fork</PackageId>
+	  <PackageProjectUrl></PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/onoyoshio/twaindotnet.git</RepositoryUrl>
+	  <PackageReleaseNotes></PackageReleaseNotes>
+	  <Description>This is a fork of TwainDotNet, which now runs on 64-bit environments. .
+.Net 6.0 or higher is also supported. But it only works on Windows.
+"TwainDotNet.WinForms.Fork" or "TwainDotNet.Wpf.Fork" is required for message hooks.</Description>
+	  <Authors>ONO Yoshio</Authors>
+	  <Company />
   </PropertyGroup>
   <ItemGroup>
     <None Remove="twaindsm\twaindsm_license.txt" />
